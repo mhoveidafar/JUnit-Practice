@@ -48,21 +48,7 @@
 			<version>4.3.11.RELEASE</version>
 		</dependency>
 
-
-		<!-- Hibernate to active javax-persistence annotations -->
-		<dependency>
-			<groupId>org.hibernate</groupId>
-			<artifactId>hibernate-entitymanager</artifactId>
-			<version>3.6.0.Final</version>
-		</dependency>
-		<dependency>
-			<groupId>org.hibernate</groupId>
-			<artifactId>hibernate-validator</artifactId>
-			<version>4.1.0.Final</version>
-		</dependency>
-
-		<!-- To activate CrudRepository in Repositories and be able to import necessary 
-			imports -->
+		<!-- Activate Java Persistence API annotations (javax.persistence) -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
